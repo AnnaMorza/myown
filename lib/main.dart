@@ -9,7 +9,10 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          color: Colors.black,
+          color: Colors.deepOrange,
+          child: Center(
+            child: Text("Hello"),
+          ),
         ),
       ),
     );
